@@ -1,0 +1,20 @@
+.container{
+    width: 500px;
+    height: 700px;
+    margin: 0 auto;
+    background: #004466;
+    padding: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-end;
+}
+.item{
+    width: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #00ffa2;
+    color: #004466;
+    font-size: 36px;
+    text-align: center;
+}

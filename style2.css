@@ -1,0 +1,176 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, hr, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.warp{
+    width: 1200px;
+    /* position:absolute; */
+    /* height: 500px; */
+    margin: 0 auto;
+    /* background: #000; */
+}
+hr{
+    border-bottom: 2px solid #000000;
+    /* opacity: 1; */
+}
+
+.header{
+    width: 1200px;
+    margin: 0;
+    margin-bottom: 24px;
+    /* font: normal normal normal 80px/95px SF Pro Text; */
+    font-size: 80px;
+    line-height: 95px;
+    font-family: 'SF Pro Text';
+}
+.content img{
+    width: 324px;
+    height: 324px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+/* .person{ */
+    /* display: flex; */
+    /* justify-items:; */
+    /* letter-spacing: 0px; */
+    /* font-family: 'PingFang TC'; */
+/* } */
+.content-data hr{
+    border-bottom: 1px solid #000000;
+}
+.content-block{
+    margin-bottom: 64px;
+}
+.content .content-block p{
+    font-size: 24px;
+}
+.ch{
+    font-size: 32px;
+    height: 48px;
+    font: normal normal medium 32px/48px 'PingFang TC';
+}
+.en{
+    /* width: 101px; */
+    height: 36px;
+    /* top: 680px;
+    left: 504px; */
+    /* font-size: 24px; */
+    color: #A00404;
+    font: normal normal 600 24px/36px 'SF Pro Text';
+}
+.gdu{
+    line-height: 52px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* text-align: center; */
+    background: #415165;
+    color: #FFFFFF;
+}
+.footer .data{
+    /* margin-left: 600px; */
+    width: 200px;
+    /* text-align: center; */
+}
+.footer .ch{
+    color: #FFFFFF;
+}
+.footer .en{
+    color: #FFFFFF;
+}
+.footer hr{
+    margin: 0;
+    width: 996px;
+    border-bottom: 1px solid #FFFFFF;
+    /* margin-left: 0; */
+}
+.footer .title{
+    width: 200px;
+    /* height: 48px; */
+    margin-top: 10px;
+    /* text-align: center; */
+    /* width: 500px; */
+}
+.footer .content{
+    /* width: 200px; */
+    font-size: 24px;
+    line-height: 32px;
+}
+/* .footer .content .datas{
+    text-align: left;
+} */
+
+.content2{
+    margin-top: 64px;
+}
+.content2 .content-block{
+    font-size: 24px;
+    font-weight: bold;
+}
+.content2 .content-block .data{
+    border-left: 1px solid #96A9C4;
+}
+.content2 .content-block .small{
+    width: 642px;
+    font-size: 20px;
+    font-weight: normal;
+}
+.content2 p{
+    /* margin-bottom: 24px; */
+    margin-top: 24px;
+}
+.footer .title2{
+    width: 500px;
+}
+.footer .data2{
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+}
+/* .footer .icon {
+    
+} */
